@@ -7,7 +7,7 @@ import { useAuthContext } from '../../provider';
 import { CircleDollarSign } from 'lucide-react';
 import { useMutation } from 'convex/react';
 import { api } from '../../../convex/_generated/api';
-export const creditsPlans = [
+const creditsPlans = [
   {
     credits: 10,
     cost: 1
